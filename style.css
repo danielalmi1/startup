@@ -1,0 +1,57 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap");
+
+/* Importing component files */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* ------------------------------------------
+   Reset
+------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------
+   Body defaults
+------------------------------------------ */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background-color: #f0ede8;
+}
+
+/* ------------------------------------------
+   Headers
+------------------------------------------ */
+h1, h2, h3 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+/* ------------------------------------------
+   Links
+------------------------------------------ */
+a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+/* ------------------------------------------
+   Container — centers the content
+------------------------------------------ */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}

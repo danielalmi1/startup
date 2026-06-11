@@ -1,0 +1,20 @@
+/* ------------------------------------------
+   Primary button
+------------------------------------------ */
+.btn-primary {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #444;
+  opacity: 1;
+}
